@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Go shopping",
+      "description": "Don't forget to buy some coffee!"
+    },
+    {
+      "id": "2",
+      "title": "Job interview",
+      "description": "At 10 AM"
+    },
+    {
+      "id": "3",
+      "title": "Prepare homework",
+      "description": "Homework from programming in React"
+    }
+  ]
+}
