@@ -35,7 +35,7 @@ Here is sample code that is not by far ideal.
 I used react-router-dom library for routing, useContext hook for state management, axios for fetching 
 data.
 2. - useEffect without dependency array
-   - adding todos to state individualy in for cyclus instead of set it up at once
+   - adding todos to state individualy in for cycle instead of set it up at once
    - imprecise naming of state
    - missing key prop in maping todos
    - obsolete use of var
