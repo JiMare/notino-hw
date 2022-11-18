@@ -15,6 +15,7 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ### `yarn run server`
+Runs demo server with data for the app.
 
 # Homework
 
@@ -27,6 +28,8 @@ Here is sample code that is not by far ideal.
 5. Add Todo detail page (add routing to app, use context api for state managment from fetch todos to render todos and detail)
 6. Todo component has defined shouldComponentUpdate lifecycle, but it can be done better, adjust it
 7. Optional: rewrite Todo component to FC (choose if you want, prepare explanation)
+
+# Result 
 
 1. I refactored code to functional components because class components are no longer used, 
 I used react-router-dom library for routing, useContext hook for state management, axios for fetching 
