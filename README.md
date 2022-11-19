@@ -39,6 +39,7 @@ data.
    - imprecise naming of state
    - missing key prop in maping todos
    - obsolete use of var
+   - React.Component doesn’t implement shouldComponentUpdate(), but React.PureComponent implements it
 3. For styling I used MaterialUI and styled components libraries. 
 4. I used axios in separate file and simulation of server. 
 5-7 Done
