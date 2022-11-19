@@ -6,7 +6,7 @@ export const TodoList = (): JSX.Element => {
 
   return (
     <div>
-      {todos?.map((todo: TodoType) => (
+      {todos?.map((todo) => (
         <Todo key={todo.id} todo={todo} />
       ))}
     </div>

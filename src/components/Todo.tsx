@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import { Card } from "@mui/material";
 import styled from "styled-components";
@@ -6,13 +7,13 @@ type Props = {
   todo: TodoType;
 };
 
-const Todo = ({ todo }: Props): JSX.Element => {
+const Todo = React.memo<Props>(function Todo({ todo }: Props): JSX.Element {
   return (
     <StyledCard>
       <StyledLink to={`detail/${todo.id}`}>{todo.title}</StyledLink>
     </StyledCard>
   );
-};
+});
 
 export default Todo;
 
