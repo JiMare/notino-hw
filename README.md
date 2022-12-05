@@ -17,6 +17,10 @@ You will also see any lint errors in the console.
 ### `yarn run server`
 Runs demo server with data for the app.
 
+# About
+
+code modified as part of the selection procedure 
+
 # Homework
 
 Here is sample code that is not by far ideal.
